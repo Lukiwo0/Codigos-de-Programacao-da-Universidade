@@ -1,0 +1,89 @@
+Algoritmo "Prova"
+//Prato principal, acompanhamento e bebida
+
+Var
+
+   esc, calc, um, dois, tres, tum: inteiro
+   sai, remover, cancelar, final: caractere
+
+Inicio
+
+      escreval("Olá! Bem vindo ao restaurante do João.")
+      escreval("")
+      escreval("Cardapio")
+      escreval("Digite 1 para escolher o Prato principal: PF que é R$50.")
+      escreval("PF = Prato feito (arroz, feijão, carne patinho e salada).")
+      escreval("Digite 2 para escolher o Sobremesa: Bolo  que é R$20.")
+      escreval("Digite 3 para escolher o Bebida: Suco que é R$10.")
+
+      um <- 50
+      dois <- 20
+      tres <- 10
+      calc <- 0
+      esc <- 0
+
+
+      repita
+            escreval("")
+            escreval("O que você gostaria de pedir?")
+            repita
+            leia(esc)
+            se (esc = 1) então
+               calc <- calc + um
+            senão
+            se (esc = 2) então
+               calc <- calc + dois
+            senão
+            se (esc = 2) então
+               calc <- calc + tres
+            senão
+            se (esc <= 0) ou (esc > 3) então
+               escreval("Você precisa escolher um número de 1 a 3.")
+            fimse
+            fimse
+            fimse
+            fimse
+            
+            escreval("Digite 'vai' se deseja continuar pedindo e 'ok' caso não.")
+            leia(sai)
+            ate (sai = "ok")
+            
+
+          escreval("Deseja cancelar seu pedido sim ou não?")
+          leia(cancelar)
+          se (cancelar = "sim") então
+             
+          senão
+            escreval("Deseja remover algum produto sim ou não?")
+            leia(remover)
+               se (remover = "sim") então
+                escreval("Digite o número que você deseja remover:")
+                leia(tum)
+                  se (tum = 1) então
+                     calc <- calc - um
+                  senão
+                  se (tum = 2) então
+                     calc <- calc - dois
+                  senão
+                  se (tum = 3) então
+                     calc <- calc - tres
+                  senão
+                  escreval("Você não removeu nenhum item, pois, escreveu um número diferente de 1 a 3.")
+                  fimse
+                  fimse
+                  fimse
+               fimse
+               
+            escreval("Deseja finalizar seu pedido sim ou não?")
+            leia(final)
+          fimse
+            
+      ate ((final = "sim") ou (cancelar = "sim"))
+      
+      se (final = "sim") então
+         escreval("Seu pedido ficou R$",calc)
+      senão
+         escreval("Você cancelou o pedido.")
+      fimse
+
+Fimalgoritmo
