@@ -1,2 +1,2 @@
-# Codigos-de-Programacao-da-Faculdade
-Códigos de Programação de atividades/projetos que fiz na Faculdade
+# Códigos de Programação da Universidade
+Códigos de Programação de atividades/projetos que fiz na Universidade
