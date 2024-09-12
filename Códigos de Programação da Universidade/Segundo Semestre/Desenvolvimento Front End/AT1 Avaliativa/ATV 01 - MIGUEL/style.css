@@ -1,0 +1,73 @@
+@charset "UTF-8";
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(img/lapis.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+
+#titulo {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#principal {
+    background-color: rgba(96, 189, 255, 0.853);
+    margin: auto;
+    margin-top: 50px;
+    width: 800px;
+    height: 1600px;
+    border: 10px black;
+    padding: 20px 40px 0px 40px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.363);
+}
+
+.caixa {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.caixatxt {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.caixatxt {
+    width: 200px;
+    height: 20px;
+}
+
+.caixa:hover {
+    background-color: rgb(202, 202, 202);
+    transition: 0.5s;
+}
+
+.caixatxt:hover {
+    background-color: rgb(202, 202, 202);
+    transition: 0.5s;
+}
+
+#enviar {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#enviar:hover {
+    background-color: rgba(84, 84, 84, 0.928);
+    transition: 0.7s;
+}

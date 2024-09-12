@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>&#128203	 Matricula Escolar</title>
+</head>
+<body>
+    <div id="principal">
+        <div id="titulo">
+            <img src="img/ucb.png" alt="u" class="ucb">
+            <h2 class="ucb">
+                Formulario de Matricula Escolar
+            </h2>
+        </div>
+        <hr>
+        <h3>Caros pais e/ou responsavel,</h3>
+        <p>Bem-vindos aos nosso centro de Admissão Escolar. Por favor, use este formulario para solicitar admissão do seu filho à nossa escola, nós precisamos de informações completas e precisas do estudante, portanto certifiquem-se de preecher todos os campos. formularios de Matricula escolar são processados dentro de 48 horas. Você receberar um email de confirmação quando nós processamos sua solicitação.</p>
+        <hr>
+        <form action="" method="post">
+            <h3>Dados Pessoal:</h3>
+            <p>
+                <label for="">Nome completo:</label> 
+                <input type="text" name="nome" class="caixatxt"> &nbsp;
+
+                <label for="">Serie Atual:</label> 
+                <input type="text" name="serie" class="caixatxt">
+            </p>
+            <p>
+                <label for="">Data de Nascimento:</label> 
+                <input type="date" name="Nascimento" class="caixatxt"> &nbsp;
+
+                <label for="">Naturalidade:</label> 
+                <input type="text" name="Naturalidade" class="caixatxt">
+            </p>
+            <p>
+                <label for="">Estado:</label>
+                <select name="estado" id="Estado" class="caixa">
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapa">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceara">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="EspiritoSanto">Espírito Santo</option>
+                    <option value="Goias">Goiás</option>
+                    <option value="Maranhao">Maranhão</option>
+                    <option value="MatoGrosso">Mato Grosso</option>
+                    <option value="MatoGrossodoSul">Mato Grosso do Sul</option>
+                    <option value="MinasGerais">Minas Gerais</option>
+                    <option value="Para">Pará</option>
+                    <option value="Paraiba">Paraíba</option>
+                    <option value="Parana">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piaui">Piauí</option>
+                    <option value="RiodeJaneiro">Rio de Janeiro</option>
+                    <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+                    <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                    <option value="Rondonia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="SantaCatarina">Santa Catarina</option>
+                    <option value="SaoPaulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
+            </p>
+            <p>
+                <label for="">Sexo:</label>
+                <input type="radio" name="sexo" id="Masculino"> Masculino
+                <input type="radio" name="sexo" id="Feminino"> Feminino
+                <input type="radio" name="sexo" id="Não Informado"> Não Informado
+            </p>
+            <hr>
+            <p>
+                <h3>Filiação</h3>
+                <p>
+                    <label for="">Pai:</label>
+                    <input type="text" name="Pai" class="caixatxt">
+                </p>
+                <p>
+                    <label for="">Mãe:</label>
+                    <input type="text" name="Mae" class="caixatxt">
+                </p>
+            </p>
+            <hr>
+            <p>
+                <h3>Informações Complementares</h3>
+                <p>
+                    <label for="">Ha alguma informações relacionada ao estudante, que você gostaria que a escola tivesse ciente?</label> <br>
+                    <input type="radio" name="complementar" class="caixa"> Sim <br>
+                    <input type="radio" name="complementar" class="caixa"> Não
+                </p>
+
+                <p>
+                    <label for="">Você deseja solicitar serviços de transporte para o estudante?</label> <br>
+                    <input type="radio" name="complementar" class="caixa"> Sim <br>
+                    <input type="radio" name="complementar" class="caixa"> Não
+                </p>
+
+                <p>
+                    <label for="">O aluno necessita alguma adaptação especial?</label> <br>
+                    <input type="radio" name="complementar" class="caixa"> Sim <br>
+                    <input type="radio" name="complementar" class="caixa"> Não
+                </p>
+
+                <p>
+                    <textarea name="contrato" id="" cols="90" rows="20" class="caixa">
+                CONTRATO DE PRESTAÇÃO DE SERVIÇOS EDUCACIONAIS 
+CONTRATANTE: (Nome), (nacionalidade), (estado civil), (profissão), portador da cédula de identidade R.G. n xxx e CPF/MF xxxxxx, residente e domiciliado na (Rua), (número), (bairro), (CEP), (Cidade), (Estado); 
+                        
+CONTRATADA: (Razão social), com sede na (Rua), (número), (bairro), (CEP), (Cidade), (Estado), inscrita no CNP3 sob on xxxxx, e no Cadastro Estadual sob on xxxx, neste ato representada pelo senhor (Nome), (nacionalidade), (estado civil), (profissão), portador da cédula de identidade R.G. n xxx e CPF/HF no xxxxxxx, residente e domiciliado na (Rua), (número), (bairro), (CEP), (Cidade), (Estado). 
+                        
+As partes acima acordam com o presente Contrato de Prestação de Servicos Educacionais, que se regerá pelas cláusulas seguintes: 
+                        
+DO OBJETO DO CONTRATO 
+                       
+Cláusula 14. 0 OBJETO do presente instrumento é a prestação de serviços educacionais, pela CONTRATADA, sendo os mesmos prestados na Escola (Home)...
+                    </textarea>
+                </p>
+
+                <p>
+                    Declaro que eu li e estou ciente que eu devo cumprir as normas que constam Regulamento deste Instituição de ensino: <br>
+                    <input type="checkbox" name="Confirmar" id="">
+                    <label for="">Confirmar</label>
+                </p>                    
+                <input type="button" value="Enviar" name="Enviar" class="caixa" id="enviar" onClick="window.location.reload()">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
