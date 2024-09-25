@@ -24,31 +24,37 @@ public class Principal {
 
         boolean sair = false;
         do {
-            System.out.println("\n\n1 - Mostra as informações do funcionário\n2 - Mudar informações do funcionário" +
+            int fun = 0;
+            System.out.println("\n\n1 - Mostra as informações de todos funcionário\n2 - Mudar informações do funcionário" +
                     "\n3 - Mostrar informações de notas e datas\n4 - Sair.");
             System.out.print("Escolha uma opção: ");
             int escolha = sc.nextInt();
             System.out.println();
 
-            switch (escolha) {
-                case 1:
-                    funcionarios[0].details(); // Mostra as informações do funcionário, bem como sua avaliação
-                    break;
-                case 2:
-                    funcionarios[0].mudarInformacoes(); // Método para mudar informações do funcionário
-                    break;
-                case 3:
-                    funcionarios[0].getAvaliacao(); //Método para mostrar informações de notas e datas
-                    break;
-                case 4:
-                    System.out.println("Saindo do sistema\nTchau! Até a próxima!");
-                    sair = true;
-                    break;
-                default:
-                    System.out.println("Número inválido");
-                    break;
-            }
-        } while (sair != true);
-
+                switch (escolha) {
+                    case 1:
+                        for (int i = 0;  i  < qtd; i++) {
+                            funcionarios[i].details(); // Mostra as informações do funcionário, bem como sua avaliação
+                        }
+                        break;
+                    case 2:
+                        System.out.print("Escolha o numero do funcionario: ");
+                        fun = sc.nextInt();
+                        funcionarios[fun-1].mudarInformacoes(); // Método para mudar informações do funcionário
+                        break;
+                    case 3:
+                        System.out.print("Escolha o numero do funcionario: ");
+                        fun = sc.nextInt();
+                        funcionarios[fun-1].getAvaliacao(); //Método para mostrar informações de notas e datas
+                        break;
+                    case 4:
+                        System.out.println("Saindo do sistema\nTchau! Até a próxima!");
+                        sair = true;
+                        break;
+                    default:
+                        System.out.println("Número inválido");
+                        break;
+                }
+        } while (sair != true) ;
     }
 }
