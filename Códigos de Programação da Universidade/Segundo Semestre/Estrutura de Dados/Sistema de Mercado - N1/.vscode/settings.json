@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "random": "c",
-        "windows.h": "c",
-        "stdbool.h": "c"
-    }
-}
