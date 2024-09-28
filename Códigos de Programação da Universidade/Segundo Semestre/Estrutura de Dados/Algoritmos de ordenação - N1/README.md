@@ -13,7 +13,8 @@ Este repositório contém a resolução dos Exercícios de Algoritmos de Ordena�
 # Explicação do funcionamento em geral dos códigos
 
 - **Geração de Números**: Um vetor de inteiros é preenchido com 6 números aleatórios diferentes entre 0 e 99.
-- **Exibição dos Números Antes da Ordenação**: Os números gerados são exibidos antes da ordenação.
+- **Exibição dos Números Antes da Ordenação**: Os números gerados são exibidos antes da ordenação.   
+- **Chamada da Função**: A função específica de cada algoritmo é responsável por ordenar os números e organizar o processo de forma eficiente, conforme a lógica de cada método de ordenação.
 - **Processo de Ordenação**: Cada modificação na ordenação do vetor é mostrada.
 - **Exibição dos Números Depois da Ordenação**: Por fim, os números ordenados são apresentados.
 
