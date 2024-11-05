@@ -323,7 +323,7 @@ void cadastrarProduto (Produto prod[MAX_PROD], int *global_cont) {
     do {
         char validar[10];
         printf("Digite o código numerico: ");
-        scanf(" %s", validar); // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'int'
+        scanf(" %9s", validar); // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'int'
 
         if (validarNumInt(validar)) { // Valida se o código é um número inteiro válido
             limparBuffer(); // Limpa o buffer se a validação falhar
@@ -346,7 +346,7 @@ void cadastrarProduto (Produto prod[MAX_PROD], int *global_cont) {
     do {
         char validar[MAX];
         printf("Digite o nome: ");
-        scanf(" %s", validar);
+        scanf(" %29s", validar);
 
         sair = true;
         if (validarNome(validar)) { // Valida se o nome tem mais de 1 caractere
@@ -371,7 +371,7 @@ void cadastrarProduto (Produto prod[MAX_PROD], int *global_cont) {
     do {
         char validar[12];
         printf("Digite o preço: ");
-        scanf(" %s", validar);  // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'float'
+        scanf(" %11s", validar);  // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'float'
 
         sair = true;
         if (validarNumFloat(validar)) { // Valida se o preco é um número válido
@@ -400,7 +400,7 @@ void removerProduto (Produto prod[MAX_PROD], int *global_cont) {
     do {
         char validar[10];
         printf("\nDigite o código do produto que deseja remover: ");
-        scanf(" %s", validar); // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'int'
+        scanf(" %9s", validar); // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'int'
 
         sair = true;
         if (validarNumInt(validar)) { // Valida se o código é um número inteiro válido
@@ -546,7 +546,7 @@ void infoProduto (Produto prod[MAX_PROD], const int *global_cont) {
     do {
         char validar[10];
         printf("\nDigite o código do produto que deseja ver as informações: ");
-        scanf(" %s", validar); // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'int'
+        scanf(" %9s", validar); // Explicação a partir da linha 29 sobre por que optei por usar 'char' em vez de 'int'
 
         sair = true;
         if (validarNumInt(validar)) { // Valida se o código é um número inteiro válido
