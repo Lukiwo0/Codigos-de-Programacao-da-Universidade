@@ -1,7 +1,7 @@
 # Refatoração do Sistema de Mercado em C
 Este repositório é a refatoração de um sistema desenvolvido em C, utilizando o Visual Studio Code como ambiente de desenvolvimento, que simula o sistema de Mercado. 
 
-Link do `Sistema de Mercado em C Oficial` para mais informações: https://github.com/Lukiwo0/Codigos-de-Programacao-da-Universidade/tree/main/C%C3%B3digos%20de%20Programa%C3%A7%C3%A3o%20da%20Universidade/Segundo%20Semestre/Estrutura%20de%20Dados/Sistema%20de%20Mercado%20-%20N1
+Link do **Sistema de Mercado em C Oficial** para mais informações: https://github.com/Lukiwo0/Codigos-de-Programacao-da-Universidade/tree/main/C%C3%B3digos%20de%20Programa%C3%A7%C3%A3o%20da%20Universidade/Segundo%20Semestre/Estrutura%20de%20Dados/Sistema%20de%20Mercado%20-%20N1
 
 
 
