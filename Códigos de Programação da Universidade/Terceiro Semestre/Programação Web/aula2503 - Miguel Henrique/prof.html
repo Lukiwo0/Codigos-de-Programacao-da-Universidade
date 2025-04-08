@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Vendedores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de Vendedores</h1>
+        <form onsubmit="cadastrar(); return false;">
+            <div class="mb-3">
+                <label for="nomeVendedor" class="form-label">Nome do Vendedor</label>
+                <input type="text" id="nomeVendedor" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="valorVenda" class="form-label">Valor da Venda</label>
+                <input type="number" id="valorVenda" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="button" class="btn btn-danger" onclick="limpar()">Limpar</button>
+            <button type="button" class="btn btn-warning" onclick="removerAnterior()">Remover Último</button>
+        </form>
+        <hr>
+        <div id="res" class="row">
+            <!-- Resultado da grid vai aparecer aqui -->
+        </div>
+    </div>
+
+    <script>
+        let res = document.getElementById("res");
+        let nomeVendedor = document.getElementById("nomeVendedor");
+        let valorVenda = document.getElementById("valorVenda");
+
+        let vendedor = [];
+        let venda = [];
+        let desconto = [];
+
+        function cadastrar() {
+            if (nomeVendedor.value === "" || valorVenda.value === "") {
+                window.alert("Erro!!! Nome do vendedor ou Valor não foram preenchidos");
+            } else {
+                desconto.push(Number(valorVenda.value) * 0.1);
+                vendedor.push(nomeVendedor.value);
+                venda.push(Number(valorVenda.value));
+
+                res.innerHTML = ''; // Limpa a grid
+                for (let i = 0; i < vendedor.length; i++) {
+                    let o = i + 1;
+                    res.innerHTML += `
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">ID: ${o}</h5>
+                                    <p class="card-text"><strong>Nome:</strong> ${vendedor[i]}</p>
+                                    <p class="card-text"><strong>Venda:</strong> R$ ${venda[i].toFixed(2)}</p>
+                                    <p class="card-text"><strong>Desconto:</strong> R$ ${desconto[i].toFixed(2)}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                nomeVendedor.value = '';
+                valorVenda.value = '';
+                event.preventDefault();
+            }
+        }
+
+        function limpar() {
+            res.innerHTML = "";
+            vendedor = [];
+            venda = [];
+            desconto = [];
+            event.preventDefault();
+        }
+
+        function removerAnterior() {
+            desconto.pop();
+            vendedor.pop();
+            venda.pop();
+
+            res.innerHTML = ''; // Limpa a grid
+            for (let i = 0; i < vendedor.length; i++) {
+                let o = i + 1;
+                res.innerHTML += `
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">ID: ${o}</h5>
+                                <p class="card-text"><strong>Nome:</strong> ${vendedor[i]}</p>
+                                <p class="card-text"><strong>Venda:</strong> R$ ${venda[i].toFixed(2)}</p>
+                                <p class="card-text"><strong>Desconto:</strong> R$ ${desconto[i].toFixed(2)}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            event.preventDefault();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Investimento</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Gestão de Investimentos Financeiros</h1>
+
+    <form id="cadastroForm">
+        <input type="hidden" id="itemID">
+
+        <div class="form-group">
+            <label for="tipo">Tipo:</label>
+            <select name="tipo" id="tipo" required>
+                <optgroup label="Renda Fixa:">
+                    <option value="Poupança">Poupança</option>
+                    <option value="Tesouro Direto">Tesouro Direto</option>
+                    <option value="CDB">CDB (Certificado de Depósito Bancário)</option>
+                    <option value="LCI">LCI (Letra de Crédito Imobiliário)</option>
+                    <option value="LCA">LCA (Letra de Crédito do Agronegócio)</option>
+                    <option value="CRI">CRI (Certificado de Recebíveis Imobiliários)</option>
+                    <option value="CRA">CRA (Certificado de Recebíveis do Agronegócio)</option>
+                    <option value="Debêntures">Debêntures</option>
+                    <option value="Fundos de Renda Fixa">Fundos de Renda Fixa</option>
+                </optgroup>
+                <optgroup label="Renda Variável:">
+                    <option value="Ações">Ações</option>
+                    <option value="Fundos Imobiliários">Fundos Imobiliários (FIIs)</option>
+                    <option value="ETFs">ETFs (Exchange Traded Funds)</option>
+                    <option value="BDRs">BDRs (Brazilian Depositary Receipts)</option>
+                    <option value="Derivativos">Derivativos</option>
+                    <option value="Fundos de Ações">Fundos de Ações</option>
+                    <option value="Fundos Multimercado">Fundos Multimercado</option>
+                </optgroup>
+                <optgroup label="Investimentos Alternativos:">
+                    <option value="Imóveis">Imóveis</option>
+                    <option value="Commodities">Commodities</option>
+                    <option value="Criptomoedas">Criptomoedas</option>
+                    <option value="Private Equity">Private Equity</option>
+                    <option value="Venture Capital">Venture Capital</option>
+                    <option value="CrowdfundingP">CrowdfundingP</option>
+                    <option value="Obras de Arte e Colecionáveis">Obras de Arte e Colecionáveis</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="valor">Valor:</label>
+            <input type="number" min="0.01" step="0.01" name="valor" id="valor" required>
+        </div>
+
+        <div class="form-group">
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" required>
+        </div>
+        <div class="form-group">
+            <label for="descricao">Descrição</label>
+            <input type="text" name="descricao" id="descricao" required>
+        </div>
+
+        <div>
+            <button type="button" id="btnCancelar" style="display:none;">Cancelar</button>
+            <button type="submit" id="btnCadastrar">Cadastrar</button>
+        </div>
+    </form>
+
+    <h2>Lista de Investimentos Cadastrados</h2>
+    <table id="listaCarteira">
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Valor</th>
+                <th>Data</th>
+                <th>Descrição</th>
+                <th class="actions">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os investimentos serão carregados aqui via JS -->
+        </tbody>
+    </table>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+    <script src="crud.js"></script>
+</body>
+
+</html>

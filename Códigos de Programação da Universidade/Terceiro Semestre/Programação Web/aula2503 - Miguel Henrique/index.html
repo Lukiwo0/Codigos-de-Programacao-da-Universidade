@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 25/03</title>
+    <!-- Inclua os scripts do Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Cálculo de Custo de Material para Construção</h1>
+        <form id="CalcCustoMaterial">
+            <div class="form-group">
+                <label>Quantidade de tijolos </label>
+                <input min="0" type="number" class="form-control" id="tijolo" placeholder="Quantidade de tijolos">
+            </div>
+            <div class="form-group">
+                <label>Preço unitário do tijolos </label>
+                <input min="0" step="0.01" type="number" class="form-control" id="precotijolo" placeholder="Preço unitário do tijolos">
+            </div>
+            <div class="form-group">
+                <label>Quantidade de sacos de cimento</label>
+                <input min="0" type="number" class="form-control" id="cimento" placeholder="Quantidade de sacos de cimento">
+            </div>
+            <div class="form-group">
+                <label>Preço unitário do cimento</label>
+                <input min="0" step="0.01" type="number" class="form-control" id="precocimento" placeholder="Preço unitário do cimento">
+            </div>
+            <div class="form-group">
+                <label>Quantidade de areia em m²</label>
+                <input min="0" type="number" class="form-control" id="areia" placeholder="Quantidade de areia em m²">
+            </div>
+            <div class="form-group">
+                <label>Preço unitário do areia</label>
+                <input min="0" step="0.01" type="number" class="form-control" id="precoareia" placeholder="Preço unitário do areia">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Calcular</button>
+            <button type="button" class="btn btn-danger" onclick="limpar()">Limpar</button>
+            <button type="button" class="btn btn-warning" onclick="removerAnterior()">Remover Último</button>
+
+            <div id="alertWarning"></div>
+        </form>
+
+        <br>
+        <hr>
+
+        <h2>Calculos Realizados</h2>
+        <div id="res" class="row">
+        </div>
+    </div>
+    <script src="crud.js"></script> <!-- Seu arquivo JavaScript -->
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-
+ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-
+ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
