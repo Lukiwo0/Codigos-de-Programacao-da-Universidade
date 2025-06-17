@@ -1,0 +1,497 @@
+{
+	"id": "c9e152b5-45e6-4004-b4ae-2c6f6a67824a",
+	"name": "TESTE API",
+	"timestamp": "2025-05-25T16:28:34.811Z",
+	"collection_id": "43963499-c2672506-48f1-40cc-b852-58ec49741c2a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 23,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-25T16:28:33.034Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "98c06e79-fe0d-48c0-a0b8-240d87abbfa8",
+			"name": "TCV 01",
+			"url": "http://localhost:5000/",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response text: 'Welcome to the Users API!'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response text: 'Welcome to the Users API!'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response text: 'Welcome to the Users API!'": true
+				}
+			]
+		},
+		{
+			"id": "ab89a006-53df-4f01-8f52-85dd41bc4816",
+			"name": "TCV 02",
+			"url": "http://localhost:5000/people",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is JSON array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is JSON array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is JSON array": true
+				}
+			]
+		},
+		{
+			"id": "d906f9fc-f000-4e61-9fbe-46b1e8a20251",
+			"name": "TCV 03",
+			"url": "http://localhost:5000/people",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains confirmation": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains confirmation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains confirmation": true
+				}
+			]
+		},
+		{
+			"id": "7015093b-0d0e-4c6e-9ff6-dbbc3eec7838",
+			"name": "TCV 04",
+			"url": "http://localhost:5000/people/d4c908ba-ed70-49e3-bae7-e323f3df412b",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains user data": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains user data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains user data": true
+				}
+			]
+		},
+		{
+			"id": "06deb177-f2c5-4ef5-89fe-ae9c192cdcc8",
+			"name": "TCV 05",
+			"url": "http://localhost:5000/people/d4c908ba-ed70-49e3-bae7-e323f3df412b",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response confirms update": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response confirms update": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response confirms update": true
+				}
+			]
+		},
+		{
+			"id": "2cf5a465-be85-4109-b934-b748f29c39b0",
+			"name": "TCV 06",
+			"url": "http://localhost:5000/people/1291a0a2-9763-4b24-873c-7213c280ea36",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response confirms deletion": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response confirms deletion": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response confirms deletion": true
+				}
+			]
+		},
+		{
+			"id": "ee70aee3-0c81-4074-ba25-0645c62b1b49",
+			"name": "TCV 07",
+			"url": "http://localhost:5000/people/6f13e1c5-0d2d-403f-8183-50bc4fd14b55",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response confirms replacement (PUT)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response confirms replacement (PUT)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response confirms replacement (PUT)": true
+				}
+			]
+		},
+		{
+			"id": "0bf18717-edb1-4f0d-9c84-dccaf826a6f3",
+			"name": "TCI 01",
+			"url": "http://localhost:5000/people",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API accepted user without username": true
+			},
+			"testPassFailCounts": {
+				"API accepted user without username": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"API accepted user without username": true
+				}
+			]
+		},
+		{
+			"id": "5bcdc398-f51a-416e-9e83-64770b91966a",
+			"name": "TCI 02",
+			"url": "http://localhost:5000/people/12345",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response includes not found message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response includes not found message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response includes not found message": true
+				}
+			]
+		},
+		{
+			"id": "39f3f2bc-09de-4473-a9e4-e7851904ddeb",
+			"name": "TCI 03",
+			"url": "http://localhost:5000/people/12345",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response includes not found message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response includes not found message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response includes not found message": true
+				}
+			]
+		},
+		{
+			"id": "e55dd4cd-0edb-4b31-8f36-3f56bcc198aa",
+			"name": "TCI 04",
+			"url": "http://localhost:5000/people/",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 404": false,
+				"Response includes not found message": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response includes not found message": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 404": false,
+					"Response includes not found message": false
+				}
+			]
+		},
+		{
+			"id": "9520502e-9414-4b8f-b8ed-c3640d89e243",
+			"name": "TCI 05",
+			"url": "http://localhost:5000/people/12345",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response includes not found message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response includes not found message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response includes not found message": true
+				}
+			]
+		},
+		{
+			"id": "81bcdc66-c7aa-4055-ac07-0cd312ac9636",
+			"name": "TCI 06",
+			"url": "http://localhost:5000/people/12345",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response includes not found message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response includes not found message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response includes not found message": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 49,
+	"collection": {
+		"requests": [
+			{
+				"id": "98c06e79-fe0d-48c0-a0b8-240d87abbfa8",
+				"method": "GET"
+			},
+			{
+				"id": "ab89a006-53df-4f01-8f52-85dd41bc4816",
+				"method": "GET"
+			},
+			{
+				"id": "d906f9fc-f000-4e61-9fbe-46b1e8a20251",
+				"method": "POST"
+			},
+			{
+				"id": "7015093b-0d0e-4c6e-9ff6-dbbc3eec7838",
+				"method": "GET"
+			},
+			{
+				"id": "06deb177-f2c5-4ef5-89fe-ae9c192cdcc8",
+				"method": "PATCH"
+			},
+			{
+				"id": "2cf5a465-be85-4109-b934-b748f29c39b0",
+				"method": "DELETE"
+			},
+			{
+				"id": "ee70aee3-0c81-4074-ba25-0645c62b1b49",
+				"method": "PUT"
+			},
+			{
+				"id": "0bf18717-edb1-4f0d-9c84-dccaf826a6f3",
+				"method": "POST"
+			},
+			{
+				"id": "5bcdc398-f51a-416e-9e83-64770b91966a",
+				"method": "GET"
+			},
+			{
+				"id": "39f3f2bc-09de-4473-a9e4-e7851904ddeb",
+				"method": "PATCH"
+			},
+			{
+				"id": "e55dd4cd-0edb-4b31-8f36-3f56bcc198aa",
+				"method": "DELETE"
+			},
+			{
+				"id": "9520502e-9414-4b8f-b8ed-c3640d89e243",
+				"method": "PUT"
+			},
+			{
+				"id": "81bcdc66-c7aa-4055-ac07-0cd312ac9636",
+				"method": "PUT"
+			}
+		]
+	}
+}
