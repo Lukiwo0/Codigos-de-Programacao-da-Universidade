@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* Variaveis globais */
+:root {
+  --blue: #0019FF;
+  --light-blue: #00CCFF;
+  --gray: #999999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  word-break: keep-all;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: var(--dark-blue);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+select,
+textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Menu */
+
+/* Cabeçalho mais fino */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: white;
+  color: var(--blue);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteúdo da página */
+.content {
+  background-image: url('../IMG/catolica.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Menu com itens lado a lado */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  /* Espaço entre os links */
+}
+
+/* Links do menu */
+.menu a {
+  color: black;
+  font-weight: 510;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: var(--gray);
+  color: white;
+}
+
+/* Estilo do link ativo */
+.menu a.active {
+  background-color: var(--blue);
+  /* Cor fixa para o link ativo */
+  color: white;
+}
+
+/* Imagem à direita */
+.image-container img {
+  height: 40px;
+  border-radius: 5px;
+}
+
+
+/* Footer */
+
+.footer-padrao {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+}
+
+.box-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+#redes-sociais {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  font-weight: bold;
+}
+
+.icons-redes-sociais {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bi {
+  font-size: 2rem;
+  color: var(--blue);
+  margin: 0 .5rem;
+
+  transition: .3s ease;
+}
+
+.bi:hover {
+  color: var(--gray);
+}
+
+#endereco {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+#endereco .title-endereco {
+  max-width: 100px;
+  font-weight: bold;
+}
+
+.text-endereco {
+  font-weight: 500;
+  font-stretch: semi-expanded;
+}
+
+.text-endereco a {
+  color: var(--blue);
+  ;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-endereco a:hover {
+  color: var(--gray);
+}
+
+.text-taguatinga {
+  width: 80%;
+  margin-bottom: .7rem;
+}
+
+.text-ceilandia {
+  width: 80%;
+}
+
+
+@media (max-width: 800px) {
+
+  .image-container img {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .menu a {
+    font-size: 1.2rem;
+  }
+
+  .box-footer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+
+  #redes-sociais {
+    margin-bottom: 2rem;
+  }
+
+  .icons-redes-sociais {
+    margin: 0;
+  }
+
+  .bi {
+    font-size: 1.6rem;
+
+  }
+
+  #endereco {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+
+    max-width: 15rem;
+  }
+
+  .title-endereco {
+    margin: 0;
+  }
+
+}

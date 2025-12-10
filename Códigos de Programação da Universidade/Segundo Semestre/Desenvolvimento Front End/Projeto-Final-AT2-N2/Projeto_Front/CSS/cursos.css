@@ -1,0 +1,86 @@
+.container-cursos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    margin: 1rem 3rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.card {
+    flex: 1 1 calc(19rem + 16px);
+    max-width: calc(19rem + 16px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 0;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    display: grid;
+    grid-template-rows: 12% 70% 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h5.card-title {
+    color: blue;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.card p.card-text {
+    text-align: justify;
+    font-size: .9rem;
+    margin: 1rem auto;
+}
+
+.btn-primary {
+    margin: auto;
+    font-weight: bolder;
+   
+}
+
+.btn-primary:hover {
+    color: blue;
+    background-color: white;
+    border-color: blue;
+}
+
+.card-img-wrapper {
+    position: relative; 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-img-top {
+    display: block; 
+    width: 100%; 
+    max-height: 7rem;
+    object-fit: cover; /*  Garante que a imagem seja cortada proporcionalmente para preencher o espaço disponível, sem esticar ou deformar. */
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.license {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    color: white; 
+    padding: 0 0.5rem .3rem;
+    margin-bottom: 0;
+    font-size: 0.6rem; 
+    opacity: .7;
+}

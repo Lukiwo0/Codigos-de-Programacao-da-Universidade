@@ -1,0 +1,77 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-biblioteca {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--gray);
+}
+
+.carousel-indicators .active {
+    background-color: white;
+}
+
+.acervo-livro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background-color: var(--blue);
+    width: 350px;
+    height: 100px;
+    border-radius: 1rem;
+
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin: 2rem auto;
+
+    transition: background-color .3s ease;
+}
+
+.acervo-livro:hover {
+    background-color: var(--gray);
+}
+
+.acervo-livro p, .acervo-livro a  {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+}
+
+.text-biblioteca h2 {
+    font-weight: bold;
+    color: var(--blue);
+    margin-top: 3rem;
+}
+
+
+.biblioteca-icons-redes-sociais {
+    display: flex;
+    margin-top: .8rem;
+    cursor: pointer;
+}
+
+.biblioteca-icons-redes-sociais .bi {
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin: 0 .5rem;
+
+    transition: .2s ease;
+}
+
+.biblioteca-icons-redes-sociais .bi:hover {
+    color: var(--blue);
+}

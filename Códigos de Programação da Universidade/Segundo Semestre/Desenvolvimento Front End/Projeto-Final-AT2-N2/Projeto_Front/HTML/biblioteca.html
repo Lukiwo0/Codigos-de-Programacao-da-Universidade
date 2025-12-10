@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca</title>
+
+  <!-- Link Google Font Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Css Base -->
+  <link rel="stylesheet" href="../CSS/base.css">
+  <!-- CSS da Página-->
+  <link rel="stylesheet" href="../CSS/biblioteca.css" />
+
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <a href="../HTML/inicio.html">Inicio</a>
+      <a href="../HTML/cursos.html">Cursos</a>
+      <a href="biblioteca.html" class="active">Biblioteca</a>
+      <a href="ajuda.html">Ajuda</a>
+    </nav>
+    <div class="image-container">
+      <a href="../HTML/login.html"><img src="../IMG/UCB-LOGO.png" /></a>
+    </div>
+  </header>
+
+  <div class="content">
+    <main class="container-biblioteca">
+      <article class="box-biblioteca">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://ucb2.catolica.edu.br/portal/conheca/biblioteca/conteudo-eletronico/minha-biblioteca/"
+                target="_blank">
+                <img class="d-block w-100" src="../IMG/livro-eletronico.png" alt="Livro Eletrônico">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://ucb2.catolica.edu.br/portal/conheca/biblioteca/servicos/agenda-oficinas-virtuais/"
+                target="_blank">
+                <img class="d-block w-100" src="../IMG/treinamentos.png" alt="Treinamentos">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://ucb2.catolica.edu.br/portal/conheca/biblioteca/elaboracao-de-trabalhos-academicos/tira-duvidas-abnt/"
+                target="_blank">
+                <img class="d-block w-100" src="../IMG/tcc-duvidas.png" alt="TCC Duvidas">
+              </a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+
+        <div class="acervo-livro">
+          <a href="https://ucb.pergamum.com.br/" target="_blank">
+            Consulta ao Acervo
+          </a>
+        </div>
+
+        <div class="text-biblioteca">
+
+          <h2>Horário de Funcionamento</h2>
+
+          <p>
+            <b>Biblioteca Central Campus Taguatinga</b> <br>
+            Segunda a sexta-feira, das 8h às 21h45. <br>
+            Sábado, das 8h15 às 14h.
+          </p>
+
+          <p>
+            <b>Biblioteca Campus Ceilândia</b> <br>
+            Segunda a sexta-feira, das 13h às 21h.
+          </p>
+
+
+          <h2>Siga a Biblioteca nas Redes Sociais</h2>
+
+          <div class="biblioteca-icons-redes-sociais">
+            <a href="https://www.facebook.com/ucb.biblioteca" target="_blank">
+              <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="https://x.com/ucbbiblioteca" target="_blank">
+              <i class="bi bi-twitter"></i>
+            </a>
+
+            <a href="https://www.instagram.com/ucbbiblioteca" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.youtube.com/SIBIUCB" target="_blank">
+              <i class="bi bi-youtube"></i>
+            </a>
+
+          </div>
+        </div>
+
+      </article>
+    </main>
+
+
+  </div>
+
+  <!-- Footer Js -->
+  <script src="../JS/footer.js"></script>
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
