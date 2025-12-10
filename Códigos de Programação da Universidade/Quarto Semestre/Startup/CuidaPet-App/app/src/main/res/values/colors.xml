@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de cores do APP-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#00796B</color>
+    <color name="secondary">#5C6B73</color>
+    <color name="tertiary">#80CBC4</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#E0E0E0</color>
+    <color name="outline">#FF000000</color>
+
+    <color name="textwhite">#FFFFFFFF</color>
+    <color name="textblack">#212121</color>
+    <color name="textwhitevariant">#00796B</color>
+
+
+    <color name="error">#D32F2F</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FBC02D</color>
+</resources>

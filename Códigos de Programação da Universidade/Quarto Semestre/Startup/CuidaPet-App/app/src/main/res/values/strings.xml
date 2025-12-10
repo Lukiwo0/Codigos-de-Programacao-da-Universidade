@@ -1,0 +1,760 @@
+<resources>
+
+    <string name="app_name">CuidaPet</string>
+    <string name="brand_name">CuidaPet</string>
+    <string name="description_brand_image">Logo Image</string>
+
+
+    <!-- POLITICA DE PRIVACIDADE E DIRETRIZES DE USO STRINGS -->
+    <string name="politica_privacidade_title">Política de Privacidade</string>
+    <string name="politica_privacidade_text">
+        A sua privacidade é muito importante para nós.
+        \nNo Cuidapet, <b>NÃO COLETAMOS NENHUM DADO SEU ou do SEU(s) PET(s)</b>; todas as informações ficam salvas apenas no seu dispositivo.
+        \nNão compartilhamos seus dados com terceiros sem o seu consentimento, exceto quando exigido por lei.\nUtilizamos medidas de segurança para proteger suas informações e mantê-las seguras.
+        \nSe tiver dúvidas, entre em contato pelo e-mail suporte@cuidapet.com.br.
+        \n\nCaso venhamos a coletar algum dado no futuro, atualizaremos esta política, notificaremos você e solicitaremos seu consentimento novamente.
+        \n Ao utilizar o Cuidapet, você concorda com esta política de privacidade.
+    </string>
+
+
+    <string name="diretrizes_uso_title">Diretrizes de Uso</string>
+    <string name="diretrizes_uso_text">
+        1. Utilize o Cuidapet de forma responsável e respeitosa.
+        \n2. Não publique conteúdos ofensivos, ilegais ou que violem direitos de terceiros.
+        \n3. As informações fornecidas devem ser verdadeiras e atualizadas.
+        \n4. O Cuidapet não se responsabiliza por informações incorretas fornecidas pelos usuários.
+        \n5. Qualquer tentativa de burlar o sistema ou violar a segurança poderá resultar na suspensão do usuário.
+        \n6. Caso venhamos a coletar dados no futuro, você será notificado e deverá aceitar novamente.
+        \n\nAo utilizar o Cuidapet, você concorda em seguir estas diretrizes.
+    </string>
+
+
+    <!-- SNACKBAR STRINGS -->
+    <string name="snackbar_coming_soon_text"><b>Não disponível ainda. Em breve</b> </string>
+
+    <!-- ONBOARDING STRINGS -->
+
+    <!-- OnboardingScreen INTRO -->
+    <string name="welcome_intro_text_1">Antes de tudo, parabéns por chegar até aqui!</string>
+    <string name="welcome_intro_text_2">Sabemos o quanto você se importa com o bem-estar do seu pet, e é por isso que criamos o CuidaPet: um aplicativo pensado para te ajudar a cuidar da saúde e da rotina do seu melhor amigo.</string>
+    <string name="welcome_intro_text_3">Aqui, você poderá organizar tudo o que ele precisa em um só lugar! 💚</string>
+    <string name="welcome_intro_button">Vamos começar!</string>
+
+    <!-- OnboardingScreen MISSION -->
+    <string name="welcome_mission_title">Nossa missão é facilitar o seu cuidado diário!</string>
+    <string name="welcome_mission_text_1">O CuidaPet nasceu com o objetivo de oferecer uma carteira digital completa para o seu pet, onde você pode centralizar vacinas, consultas, exames, lembretes e muito mais.</string>
+    <string name="welcome_mission_text_2">Chega de perder papéis ou esquecer datas importantes, aqui, tudo fica salvo, seguro e acessível a qualquer momento!</string>
+    <string name="welcome_mission_button">Quero descobrir mais!</string>
+
+    <!-- OnboardingScreen FEATURES -->
+    <string name="welcome_features_title">Tudo o que o seu pet precisa, no seu celular!</string>
+    <string-array name="welcome_features_list">
+        <item>Cadastre vários pets e acompanhe cada um individualmente.</item>
+        <item>Registre vacinas, consultas, exames e medicamentos.</item>
+        <item>Configure alertas e lembretes automáticos.</item>
+        <item>Receba dicas e guias de cuidado com base no perfil do seu pet.</item>
+        <item>Tenha relatórios e histórico de saúde sempre à mão.</item>
+    </string-array>
+    <string name="welcome_features_text">E o melhor: tudo isso com uma interface simples, intuitiva e feita com carinho.</string>
+    <string name="welcome_features_button">Continuar</string>
+
+    <!-- OnboardingScreen USERDATA -->
+    <string name="welcome_userdata_title">Agora, conte um pouquinho sobre você!</string>
+    <string name="welcome_userdata_title_note">* Essas informações ajudam o CuidaPet a personalizar a sua experiência</string>
+    <string name="welcome_userdata_form_title_name">Nome completo:</string>
+    <string name="welcome_userdata_form_title_birth">Data de nascimento:</string>
+    <string name="welcome_userdata_form_title_gender">Gênero:</string>
+    <string name="welcome_userdata_checkbox_1">Li e aceito as Políticas de Privacidade</string>
+    <string name="welcome_userdata_checkbox_2">Li e concordo com as Diretrizes de Uso</string>
+    <string name="welcome_userdata_button">Próximo</string>
+
+    <string name="welcome_userdata_politica_privacidade_button_confirm">Li e ACEITO</string>
+    <string name="welcome_userdata_politica_privacidade_button_cancel">Cancelar</string>
+
+    <string name="welcome_userdata_diretrizes_uso_button_confirm">Li e CONCORDO</string>
+    <string name="welcome_userdata_diretrizes_uso_button_cancel">Cancelar</string>
+
+    <!-- OnboardingScreen PETDATA -->
+    <string name="welcome_petdata_title">Vamos conhecer seu amiginho!</string>
+    <string name="welcome_petdata_title_note">*Cadastre o seu primeiro pet, você poderá adicionar mais depois.</string>
+    <string name="welcome_petdata_form_name">Nome do pet:</string>
+    <string name="welcome_petdata_form_birth">Data de nascimento:</string>
+    <string name="welcome_petdata_form_sex">Sexo:</string>
+    <string name="welcome_petdata_form_species">Espécie:</string>
+    <string name="welcome_petdata_form_castrated">Status de castração:</string>
+    <string name="welcome_petdata_button">Próximo</string>
+
+    <!-- OnboardingScreen END -->
+    <string name="welcome_end_title">Tudo pronto!</string>
+    <string name="welcome_end_text_1">Agora é só aproveitar o CuidaPet!</string>
+    <string name="welcome_end_text_2">Você poderá acompanhar seus pets, registrar consultas, receber alertas e descobrir novas formas de cuidar deles com amor.</string>
+    <string name="welcome_end_button">Ir para a tela inicial</string>
+
+
+    <!--  PADRÃO PRA CRIAR O NAME: screen_<nome_da_tela>_<componente>_<tipo>_<identificador>   -->
+    <!-- HOME STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_home_navbar_title">CuidaPet</string>
+
+    <!-- TemplateCards -->
+    <string name="screen_home_card_title_pets">Meus Pets</string>
+    <string name="screen_home_card_description_pets">Cadastre, veja e gerencie os perfis dos seus animais.</string>
+
+    <string name="screen_home_card_title_profile">Meu Perfil</string>
+    <string name="screen_home_card_description_profile">Gerencie suas informações pessoais e preferências.</string>
+
+    <string name="screen_home_card_title_notifications">Notificações</string>
+    <string name="screen_home_card_description_notifications">Crie e acompanhe lembretes e alertas.</string>
+
+    <string name="screen_home_card_title_tips">Dicas e Guias de Cuidados</string>
+    <string name="screen_home_card_description_tips">Artigos e sugestões sobre saúde, alimentação e bem-estar.</string>
+
+    <string name="screen_home_card_title_support">Ajuda e Suporte</string>
+    <string name="screen_home_card_description_support">Tutoriais, FAQ e contato direto com nossa equipe.</string>
+
+    <string name="screen_home_card_title_credits">Créditos</string>
+    <string name="screen_home_card_description_credits">Informações sobre recursos visuais e desenvolvedores.</string>
+
+
+    <!-- PET LIST STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_petlist_navbar_title">Meus Pets</string>
+    <string name="screen_petlist_navbar_button_text">Cadastrar</string>
+    <!-- Content -->
+    <string name="screen_petlist_title">Nenhum Pet cadastrado &#x1F61F;</string>
+    <string name="screen_petlist_text">Seu pet merece um cantinho só dele! Cadastre agora e comece a acompanhar vacinas, alertas e cuidados.</string>
+    <string name="screen_petlist_button_text">Cadastrar Primeiro Pet</string>
+
+
+    <!-- USER PROFILE STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_userprofile_navbar_title">Meu Perfil</string>
+    <!-- Content -->
+
+
+    <!-- ALL NOTIFICATIONS STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_allnotifications_navbar_title">Notificações</string>
+    <!-- Content -->
+
+
+    <!-- PET CARE TIPS, PET TYPE TIPS, PET TIP DETAIL STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_petcaretips_navbar_title">Dicas e Guias de Cuidados</string>
+    <!-- Content -->
+
+    <string name="screen_petcaretips_description">
+       Encontre dicas e guias de cuidados para diferentes tipos de pets.
+        Aqui você terá orientações gerais e também informações específicas para cada animal e raça.
+        No futuro, novos animais e raças serão adicionados.
+    </string>
+
+    <string name="screen_pettypetips_description">
+       Dicas e guias de cuidados gerais para todas as raças de
+    </string>
+
+    <string name="screen_pettypetips_note">
+        No futuro, você encontrará aqui dicas e guias de cuidados exclusivos para cada raça específica, levando em conta suas particularidades de saúde, comportamento e bem-estar.
+        \n\nAssim, será possível oferecer orientações ainda mais personalizadas para o seu pet.
+    </string>
+
+
+
+    <!-- SUPPORT STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_support_navbar_title">Ajuda e Suporte</string>
+
+    <!-- Content -->
+    <string name="screen_support_title">Ajuda e Suporte</string>
+
+    <string name="screen_support_intro_title">&#x1F4E9; Entre em Contato</string>
+    <string name="screen_support_intro_subtitle">
+        Caso sua dúvida não esteja aqui, você pode nos contatar pelo e-mail: suporte@cuidapet.com
+    </string>
+
+    <string name="screen_support_important_title">&#x26A0;&#xFE0F; Importante!</string>
+    <string name="screen_support_important_text">
+        Ao enviar seu e-mail, pedimos que:\n
+        • Explique sua situação de forma clara e detalhada.\n
+        • Se possível, inclua capturas de tela mostrando o problema.\n
+        • Você também pode gravar um vídeo curto da tela para facilitar o entendimento da equipe de suporte.\n
+         Assim conseguimos identificar e resolver sua solicitação mais rápido.
+    </string>
+
+    <string name="screen_support_faq_title">&#x2753;Dúvidas Frequentes</string>
+    <string name="screen_support_faq_subtitle">
+        Encontre respostas rápidas para as perguntas mais comuns sobre o uso do aplicativo.
+    </string>
+
+    <!-- Pergunta 1 -->
+    <string name="screen_support_question_1">Como cadastrar um novo pet?</string>
+    <string name="screen_support_answer_1">
+        Para cadastrar um novo pet, vá até a tela “Meus Pets” e toque no botão “Cadastrar”.
+        \nDepois, preencha as informações básicas (nome, espécie, data de nascimento etc.) e salve.
+        \nVocê poderá completar os detalhes, como vacinas e exames, a qualquer momento.
+    </string>
+
+    <!-- Pergunta 2 -->
+    <string name="screen_support_question_2">Como funcionam os alertas?</string>
+    <string name="screen_support_answer_2">
+        Os alertas servem para te lembrar de compromissos importantes do seu pet — como vacinas, consultas e banhos.
+        \nVocê pode ativar ou desativar cada tipo de alerta nas configurações do aplicativo.
+    </string>
+
+    <!-- Pergunta 3 -->
+    <string name="screen_support_question_3">Posso editar as informações do meu pet?</string>
+    <string name="screen_support_answer_3">
+        Sim! Vá até “Meus Pets”, toque no pet desejado e depois em “Editar”.
+        \nLá você pode atualizar dados como nome, espécie, vacinas, peso e mais.
+    </string>
+
+    <!-- Pergunta 4 -->
+    <string name="screen_support_question_4">Como cadastrar uma vacina do meu pet?</string>
+    <string name="screen_support_answer_4">
+        Acesse o perfil do seu pet, vá até a aba “Vacinas” e toque em “Adicionar Vacina”.
+        \nInforme o nome da vacina, a data de aplicação e, se quiser, adicione uma observação ou lembrete para a próxima dose.
+        \nO aplicativo enviará um alerta automático quando estiver chegando a data da próxima aplicação.
+    </string>
+
+    <!-- Pergunta 5 -->
+    <string name="screen_support_question_5">Como atualizar o aplicativo?</string>
+    <string name="screen_support_answer_5">
+        As atualizações são disponibilizadas pela Google Play.
+        \nBasta abrir a loja, buscar por “CuidaPet” e tocar em “Atualizar” (se houver uma nova versão disponível).
+    </string>
+
+
+
+
+    <!-- CREDITS STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_credits_navbar_title">Créditos</string>
+
+    <!-- Content -->
+    <string name="screen_credits_title">Créditos de Recursos Visuais</string>
+
+    <string name="screen_credits_text_1">
+        Todas as ilustrações vetorizadas utilizadas neste aplicativo foram obtidas gratuitamente na plataforma Freepik.
+    </string>
+    <string name="screen_credits_text_2">
+        As ilustrações (pets, pessoas e outros elementos gráficos) foram criadas e disponibilizadas por Freepik.
+    </string>
+    <string name="screen_credits_text_3">Designed by Freepik</string>
+    <string name="screen_credits_link_text">(www.freepik.com)</string>
+
+    <string name="screen_credits_link">http://www.freepik.com/</string>
+
+
+    <!-- PET REGISTER STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_pet_register_navbar_title">Registrar Pet</string>
+
+
+
+    <!-- PET PROFILE STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_pet_profile_navbar_title">Perfil de %1$s</string>
+    <!-- TemplateCards -->
+    <string name="screen_pet_profile_card_title_overview">Visão Geral</string>
+    <string name="screen_pet_profile_card_description_overview">Uma visão completa do histórico e status do pet.</string>
+
+    <string name="screen_pet_profile_card_title_vaccines">Vacinas</string>
+    <string name="screen_pet_profile_card_description_vaccines">Área dedicada ao controle de vacinas do pet.</string>
+
+    <string name="screen_pet_profile_card_title_medicalrecords">Exames e Consultas</string>
+    <string name="screen_pet_profile_card_description_medicalrecords">Controle centralizado dos cuidados clínicos.</string>
+
+    <string name="screen_pet_profile_card_title_alerts">Alertas</string>
+    <string name="screen_pet_profile_card_description_alerts">Gerencie os lembretes e notificações do pet.</string>
+
+    <string name="screen_pet_profile_card_title_notes">Anotações</string>
+    <string name="screen_pet_profile_card_description_notes">Espaço livre para observações rápidas.</string>
+
+    <string name="screen_pet_profile_card_title_gallery">Galeria</string>
+    <string name="screen_pet_profile_card_description_gallery">Espaço para fotos do seu pet.</string>
+
+    <string name="screen_pet_profile_card_title_tips">Dicas Exclusivas</string>
+    <string name="screen_pet_profile_card_description_tips">Conteúdo personalizado com base no perfil do seu pet.</string>
+
+
+    <!-- PET OVERVIEW STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_pet_overview_navbar_title">Visão Geral de %1$s</string>
+
+
+    <!-- PET VACCINES STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_pet_vaccines_navbar_title">Vacinas de %1$s</string>
+    <string name="screen_pet_vaccine_register_navbar_title">Registrar Vacina</string>
+    <string name="screen_pet_vaccine_detail_navbar_title">Detalhe da Vacina</string>
+
+
+
+    <!-- PET NOTES STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_pet_notes_navbar_title">Anotações de %1$s</string>
+    <string name="screen_pet_note_register_navbar_title">Registrar Anotação</string>
+    <string name="screen_pet_note_detail_navbar_title">Detalhe da Anotação</string>
+
+
+
+    <!-- PET MEDICAL RECORDS STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_pet_medicalrecords_navbar_title">Exames &amp; Consultas de %1$s</string>
+    <string name="screen_pet_medicalrecord_register_navbar_title">Registrar Exame ou Consulta</string>
+    <string name="screen_pet_medicalrecord_detail_navbar_title">Detalhe do Exame ou Consulta</string>
+
+
+
+    <!-- PET ALERTS STRINGS -->
+
+    <!-- AppNavbar -->
+    <string name="screen_pet_alerts_navbar_title">Alertas de %1$s</string>
+    <string name="screen_pet_alert_register_navbar_title">Registrar Alerta</string>
+    <string name="screen_pet_alert_detail_navbar_title">Detalhe do Alerta</string>
+
+
+
+
+
+
+    <!--    "Content": "Notificações"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Notificado às 08:30 - 20/05/2025"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Nova atualização disponível! Agora você pode anexar exames ao perfil do seu pet."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Dica do dia: trocar a água 2x ao dia ajuda a prevenir doenças."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Notificado às 9:00 - 16/05/2025"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Amanhã é o reforço da V10 da Luna. Não se esqueça!"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Notificado às 17:59 - 15/05/2025"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Hoje é dia da consulta da Mel às 15h."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Notificado às 08:30 - 13/05/2025"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "O exame anual do Thor está atrasado. Agende o quanto antes."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Notificado às 15:07 - 12/05/2025"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Hoje é aniversário do Thor!"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Notificado às 06:30 - 12/05/2025"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Você receberá notificações sobre novidades do app, compromissos do seu pet (com 1 dia de antecedência, no dia e se estiver atrasado)."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Dicas e guias de cuidados"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Cachorro"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Gato"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Em breve"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Coelho"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Em breve"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    },-->
+    <!--    {-->
+    <!--    {-->
+    <!--    "Content": "Meu Perfil"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Heitor"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Nome:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Cadastrar-se"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Em breve"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Fazer login"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Em breve"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Conectar conta com o Google"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Em breve"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Políticas de Privacidade"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Limpar dados da conta"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Excluir conta permanentemente"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Diretrizes de Uso"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ajuda e Suporte"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Créditos"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tire uma foto  ou selecione uma imagem da sua galeria"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Cuidapet@gmail.com"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "E-mail:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Alterar senha"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Senha:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Data de nascimento:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Masculino"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Gênero:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Notificações"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Você receberá notificações sobre novidades do app, compromissos do seu pet (com 1 dia de antecedência, no dia e se estiver atrasado)."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Sem notificação no momento.\nTudo em dia :)"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Meus Pets"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Cadastrar"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Cadastre seu pet"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Nenhum Pet cadastrado :'( \n\nSeu pet merece um cantinho só dele! Cadastre agora e comece a acompanhar vacinas, alertas e cuidados."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Cancelar"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "**********"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Senha Atual:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "123cuidapet@"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Senha Nova:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "123cuidapet@"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Confirmar Senha Nova:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Alterar Senha"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Dicas e guias de cuidados"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Dicas e guias de cuidados gerais para todas as raças de cachorro"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Alimentação básica"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Saúde preventiva"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Comportamento"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Higiene e banho"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "No futuro, você encontrará aqui dicas e guias de cuidados exclusivos para cada raça específica, levando em conta suas particularidades de saúde, comportamento e bem-estar. \nAssim, será possível oferecer orientações ainda mais personalizadas para o seu pet."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Perfil do Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Próximos Compromissos"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Vacina\nData: 12/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar a Luna para tomar a vacina da raiva"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Hoje"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Exame\nData: 20/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar a Luna para fazer exame de sangue"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "pRÓXIMO"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Bob"-->
+    <!--    },-->
+    <!--    {-->
+
+    <!--    "Content": "Em breve com IA"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "O cadastro do seu pet está incompleto. Adicione todas as informações para aproveitar todos os recursos do app."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Perfil do Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Próximos Compromissos"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Vacina\nData: 12/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar a Luna para tomar a vacina da raiva"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Hoje"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Exame\nData: 20/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar a Luna para fazer exame de sangue"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "pRÓXIMO"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Visão Geral"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Uma visão completa do histórico e status do pet."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Vacinas"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Área dedicada ao controle de vacinas do pet."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Alertas"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Gerencie os lembretes e notificações do pet."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Galeria"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Espaço para fotos do seu pet."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Em breve"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Dicas Exclusivas"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Conteúdo personalizado com base no perfil do seu pet."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Em breve com IA"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "O cadastro do seu pet está incompleto. Adicione todas as informações para aproveitar todos os recursos do app."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Alertas do Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Criar Alerta"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Próximos Alertas"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Vacina\nData: 12/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar o Bob para tomar a vacina da raiva"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Hoje"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Exame\nData: 20/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar o Bob para fazer exame de sangue"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "pRÓXIMO"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Lista de Alertas"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Veja todos so alertas do Bob."-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Lista de Alertas do Bob"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Filtre seus alertas"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Vacina\nData: 12/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar o Bob para tomar a vacina da raiva"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Hoje"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Concluído"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ver mais"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo: Exame\nData: 20/11/2025 às 16:00h\nLocal: Vigilância Ambiental Taguatinga\n \nDescrição: Levar o Bob para fazer exame de sangue"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "PRÓXIMO"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Mais próximo primeiro"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Ordenar por:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Aplicar"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Cancelar"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Período:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Vacina, Exame"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Tipo:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Hoje, Próximos"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Categoria:"-->
+    <!--    },-->
+    <!--    {-->
+    <!--    "Content": "Adicionar Filtros"-->
+    <!--    }-->
+    <!--    ]-->
+
+
+</resources>
